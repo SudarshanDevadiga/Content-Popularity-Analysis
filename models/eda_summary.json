@@ -1,0 +1,170 @@
+{
+  "total_records": 39644,
+  "total_features": 17,
+  "median_shares": 1400.0,
+  "mean_shares": 3395.4,
+  "class_balance": {
+    "Popular (>= 1400)": 21154,
+    "Not Popular (< 1400)": 18490
+  },
+  "channel_stats": [
+    {
+      "channel": "Lifestyle",
+      "count": 2099,
+      "avg_shares": 3682.1,
+      "median_shares": 1700.0,
+      "popular_pct": 61.12
+    },
+    {
+      "channel": "Entertainment",
+      "count": 7057,
+      "avg_shares": 2970.5,
+      "median_shares": 1200.0,
+      "popular_pct": 41.12
+    },
+    {
+      "channel": "Business",
+      "count": 6258,
+      "avg_shares": 3063.0,
+      "median_shares": 1400.0,
+      "popular_pct": 52.92
+    },
+    {
+      "channel": "Social Media",
+      "count": 2323,
+      "avg_shares": 3629.4,
+      "median_shares": 2100.0,
+      "popular_pct": 75.76
+    },
+    {
+      "channel": "Tech",
+      "count": 7346,
+      "avg_shares": 3072.3,
+      "median_shares": 1700.0,
+      "popular_pct": 64.12
+    },
+    {
+      "channel": "World",
+      "count": 8427,
+      "avg_shares": 2287.7,
+      "median_shares": 1100.0,
+      "popular_pct": 38.55
+    }
+  ],
+  "timing_stats": {
+    "Weekday": {
+      "count": 34454,
+      "avg_shares": 3318.9,
+      "popular_pct": 50.63
+    },
+    "Weekend": {
+      "count": 5190,
+      "avg_shares": 3903.4,
+      "popular_pct": 71.46
+    }
+  },
+  "feature_stats": {
+    "n_tokens_title": {
+      "min": 2.0,
+      "max": 23.0,
+      "mean": 10.399,
+      "median": 10.0
+    },
+    "n_tokens_content": {
+      "min": 0.0,
+      "max": 8474.0,
+      "mean": 546.515,
+      "median": 409.0
+    },
+    "num_hrefs": {
+      "min": 0.0,
+      "max": 304.0,
+      "mean": 10.884,
+      "median": 8.0
+    },
+    "num_imgs": {
+      "min": 0.0,
+      "max": 128.0,
+      "mean": 4.544,
+      "median": 1.0
+    },
+    "num_videos": {
+      "min": 0.0,
+      "max": 91.0,
+      "mean": 1.25,
+      "median": 0.0
+    },
+    "num_keywords": {
+      "min": 1.0,
+      "max": 10.0,
+      "mean": 7.224,
+      "median": 7.0
+    },
+    "data_channel_is_lifestyle": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.053,
+      "median": 0.0
+    },
+    "data_channel_is_entertainment": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.178,
+      "median": 0.0
+    },
+    "data_channel_is_bus": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.158,
+      "median": 0.0
+    },
+    "data_channel_is_socmed": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.059,
+      "median": 0.0
+    },
+    "data_channel_is_tech": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.185,
+      "median": 0.0
+    },
+    "data_channel_is_world": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.213,
+      "median": 0.0
+    },
+    "is_weekend": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.131,
+      "median": 0.0
+    },
+    "global_sentiment_polarity": {
+      "min": -0.394,
+      "max": 0.728,
+      "mean": 0.119,
+      "median": 0.119
+    },
+    "title_sentiment_polarity": {
+      "min": -1.0,
+      "max": 1.0,
+      "mean": 0.071,
+      "median": 0.0
+    },
+    "title_subjectivity": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.282,
+      "median": 0.15
+    },
+    "kw_avg_avg": {
+      "min": 0.0,
+      "max": 43567.66,
+      "mean": 3135.859,
+      "median": 2870.075
+    }
+  }
+}

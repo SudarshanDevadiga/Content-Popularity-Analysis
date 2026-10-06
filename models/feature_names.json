@@ -1,0 +1,19 @@
+[
+  "n_tokens_title",
+  "n_tokens_content",
+  "num_hrefs",
+  "num_imgs",
+  "num_videos",
+  "num_keywords",
+  "data_channel_is_lifestyle",
+  "data_channel_is_entertainment",
+  "data_channel_is_bus",
+  "data_channel_is_socmed",
+  "data_channel_is_tech",
+  "data_channel_is_world",
+  "is_weekend",
+  "global_sentiment_polarity",
+  "title_sentiment_polarity",
+  "title_subjectivity",
+  "kw_avg_avg"
+]
